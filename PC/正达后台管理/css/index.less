@@ -1,0 +1,228 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    vertical-align: middle;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+// header 
+.header{
+    position: relative;
+    height: 80px;
+    background-color: #40a9fa;
+    .left .logo{
+        width: 49px;
+        height: 36px;
+        margin-top: 19px;
+        margin-left: 20px;
+    }
+    h1{
+        font-size: 0;
+    }
+    h2{
+        position: absolute;
+        top: 28px;
+        left: 83px;
+        font-size: 24px;
+        color: #fff;
+    }
+    .right ul li{
+        float: left;
+        margin: 33px 14px;
+        a{
+            font-size: 14px;
+        }
+    }
+    .iconfont{
+        color: #fff;
+    }
+}
+// sideibar
+.sideibar{
+    position: relative;
+    z-index: 5;
+    width: 200px;
+    height: 828px;
+    background-color: #424147;
+        li{
+        position: relative;
+        width: 200px;
+        height: 141px;
+        }
+       img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+       }
+       .p1{
+           opacity: .7;
+       }
+       
+        h4{
+            position: absolute;
+            
+            font-weight: normal;
+            color: #fff;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 25px;
+        }
+        
+}
+
+.sideibar ul li:hover{
+    background-color: #4e4d53;
+}
+// content 
+.content{
+    width: 100%;
+    height: 828px;
+    background-color: #f1f9fc;
+    .top{
+        position: relative;
+        width: 100%;
+        height: 189px;
+        background-color: #ccc;
+        h2{
+            font-size: 24px;
+            color: #333333;
+            margin-left: 22px;
+            margin-top: 21px;
+        }
+        ul{
+            margin-left: 22px;
+            margin-top: 18px;
+            span{
+                color: #ccc;
+            }
+        }
+        img{
+           position: absolute;
+            width: 200px;
+            height: 149px;
+            top: 20px;
+           right:20px ;
+        }
+        }
+        .main{
+            width: 100%;
+            height:527px;
+            background-color: #ccc;
+            margin-top: 56px;
+            img{
+                width: 1180px;
+               height: 434px;
+                margin-top: 74px;
+                margin-left: 221px;
+            }
+        
+   
+
+
+    }
+}
+.tab{
+    position: absolute;
+    top: 285px;
+    left: 220px;
+    
+}
+.tab ul li{
+    float: left;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    color: #999;
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.tab ul li:nth-last-child(1){
+    background-color: hsla(207, 100%, 50%, 0.984);
+    color: #fff;
+    
+}
+.san{
+    position: absolute;
+    bottom: -10px;
+    left: 470px;
+    width: 0;
+    height: 0;
+    border: 5px solid;
+    border-color:transparent transparent  hsla(207, 100%, 50%, 0.984) transparent ;
+    transform: rotate(180deg);
+}
+.btn1,
+.btn2{
+    position: absolute;
+    top: 351px;
+    left: 220px;
+    display: inline-block;
+    width: 110px;
+    height: 32px;
+    background-color: #FF5FD15C;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    border-radius: 2px;
+}
+.btn2{
+    left: 350px;
+}
+.sea{
+    position:absolute;
+    top: 351px;
+    right: 20px;
+    width: 212px;
+    height: 32px;
+    input{
+        float: left;
+        height: 32px;
+        width: 178px;
+        border: none;
+        outline: none;text-indent: 10px;
+    }
+    button{
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        
+        img{
+            width: 34px;
+            height: 32px;
+        }
+    }
+}

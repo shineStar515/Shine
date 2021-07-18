@@ -1,0 +1,58 @@
+{
+  "id": "2334896",
+  "name": "正达后台管理",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "113515",
+      "name": "钥匙",
+      "font_class": "key",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1036380",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1453466",
+      "name": "word",
+      "font_class": "word",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2170925",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3216099",
+      "name": "上传",
+      "font_class": "icon--",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "4320352",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "19494236",
+      "name": "删 除",
+      "font_class": "shanchu",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}

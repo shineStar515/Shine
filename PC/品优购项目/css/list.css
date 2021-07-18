@@ -1,0 +1,72 @@
+/* 秒杀模块 */
+
+header .sk {
+    position: absolute;
+    top: 40px;
+    left: 184px;
+}
+
+header .sk img {
+    padding-left: 12px;
+    border-left: 1px solid #c81523;
+}
+
+
+/* 导航模块 */
+
+nav .sk_list {
+    float: left;
+}
+
+nav .sk_list ul li {
+    float: left;
+    text-align: center;
+}
+
+nav .sk_list ul li a {
+    display: block;
+    padding: 13px 26px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav .sk_con {
+    float: right;
+}
+
+nav .sk_con ul li {
+    float: left;
+    text-align: center;
+}
+
+nav .sk_con ul li a {
+    display: block;
+    line-height: 5px;
+    font-size: 14px;
+    padding: 24px;
+}
+
+nav .sk_con ul li .more::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+
+/* 主体部分 */
+
+.sk_container .sk_bd ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.sk_bd ul li img {
+    border: 1px solid #fff;
+}
+
+.sk_container .sk_bd ul li img:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}

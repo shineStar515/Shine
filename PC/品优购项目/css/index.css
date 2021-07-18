@@ -1,0 +1,227 @@
+/* 5.主体部分 */
+
+main {
+    height: 465px;
+    background-color: #ffffff;
+}
+
+main .focus {
+    width: 700px;
+}
+
+main .focus img {
+    float: left;
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 721px;
+    height: 454px;
+}
+
+main .newsflash {
+    float: right;
+    margin-top: 10px;
+    width: 250px;
+    height: 455px;
+}
+
+main .newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+main .newsflash .news .news_hd {
+    height: 33px;
+    line-height: 35px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+main .newsflash .news .news_hd h5 {
+    float: left;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+main .newsflash .news .news_hd .more {
+    float: right;
+    padding-right: 18px;
+}
+
+main .newsflash .news .news_hd .more::after {
+    content: '\e920';
+    font-family: "icomoon";
+}
+
+main .newsflash .news .news_bd {
+    padding-top: 10px;
+}
+
+.newsflash .news .news_bd a {
+    padding-left: 5px;
+}
+
+main .newsflash .news .news_bd ul li {
+    height: 23px;
+    line-height: 23px;
+    padding-left: 12px;
+}
+
+main .newsflash .lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    overflow: hidden;
+}
+
+main .newsflash .lifeservice ul {
+    width: 256px;
+}
+
+main .newsflash .lifeservice ul li {
+    text-align: center;
+    float: left;
+    width: 64px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+main .newsflash .lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -17px -15px;
+}
+
+main .newsflash .lifeservice ul li a {
+    padding-bottom: 20px;
+}
+
+main .newsflash .bargain {
+    margin-top: 5px;
+}
+
+
+/* 6.推荐模块 */
+
+.recom {
+    margin-top: 10px;
+    margin-bottom: 22px;
+    height: 163px;
+    background: #ebebeb;
+}
+
+.recom .recom_hd {
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+}
+
+.recom .recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom .recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    content: '';
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+
+/* 8.楼层区域 */
+
+.floor .con_intem1 .itm1_hd {
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 2px solid #c81623;
+}
+
+.floor .con_intem1 .itm1_hd h4 {
+    float: left;
+    font-size: 18px;
+}
+
+.floor .con_intem1 .itm1_hd .tab_list {
+    float: right;
+}
+
+.itm1_hd .tab_list ul li {
+    float: left;
+}
+
+.itm1_hd .tab_list ul li a {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.floor .con_intem1 .itm1_bd {
+    height: 362px;
+    margin-bottom: 20px;
+}
+
+.floor .con_intem1 .itm1_bd>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.bb {
+    border: 1px solid #ccc;
+}
+
+.itm1_bd .col_210 ul {
+    padding-left: 10px;
+}
+
+.itm1_bd .col_210 ul li {
+    float: left;
+    width: 90px;
+    height: 38px;
+    margin-right: 10px;
+    line-height: 38px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.itm1_bd .col_210 img {
+    padding-top: 19px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.con_intem1 .itm1_bd .foot {
+    margin-top: 10px;
+    height: 100px;
+    background-color: #f9f9f9;
+}
+
+.foot {
+    height: 64px;
+}
+
+.foot ul li {
+    float: left;
+}

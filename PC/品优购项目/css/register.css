@@ -1,0 +1,142 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 81px;
+    border-bottom: 1px solid #c6192a;
+}
+
+header img {
+    padding-top: 17px;
+}
+
+.registerarea {
+    height: 517px;
+    border: 1px solid #ccc;
+}
+
+.registerarea .hd {
+    height: 42px;
+    line-height: 42px;
+    margin-top: 22px;
+    background-color: #ececec;
+    border: 1px solid #ccc;
+}
+
+.registerarea .hd h3 {
+    float: left;
+    font-size: 18px;
+}
+
+.registerarea .hd .logon {
+    float: right;
+}
+
+.registerarea .hd .logon a {
+    color: #c6192a;
+}
+
+.reg_bd {
+    width: 680px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_bd ul li {
+    margin: 20px 20px;
+}
+
+.reg_bd ul li .ipt {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.reg_bd ul li span {
+    font-size: 12px;
+    color: #c6192a;
+}
+
+.reg_bd label {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 100px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_bd ul li .error,
+.reg_bd ul li .success {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    margin: -5px 5px 0;
+    background: url(../images/error.png) no-repeat;
+}
+
+.reg_bd ul li .success {
+    background: url(../images/success.png) no-repeat;
+}
+
+.reg_bd ul .aq {
+    color: #fff;
+    padding-left: 220px;
+}
+
+.aq em {
+    text-align: center;
+    padding: 0 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.ag {
+    padding-left: 160px;
+}
+
+.ag input {
+    vertical-align: middle;
+}
+
+.ag a {
+    color: #1ba1e6;
+}
+
+.zc {
+    padding-left: 160px;
+}
+
+.zc .btn {
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+
+/* 版权模块 */
+
+.footer .mod_copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer .mod_copyright .copyright {
+    line-height: 25px;
+}
